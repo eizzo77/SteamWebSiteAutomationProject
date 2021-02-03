@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="199558" started-at="2020-12-16T14:13:28 IST" finished-at="2020-12-16T14:16:47 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="199558" started-at="2020-12-16T14:13:28 IST" finished-at="2020-12-16T14:16:47 IST">
+      <class name="steamTests.ResultsTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:steamTests.ResultsTest@578486a3]" name="setup" is-config="true" duration-ms="8234" started-at="2020-12-16T14:13:28 IST" finished-at="2020-12-16T14:13:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc_01_ValidatesNumberOfTagsChecked()[pri:0, instance:steamTests.ResultsTest@578486a3]" name="tc_01_ValidatesNumberOfTagsChecked" duration-ms="4080" started-at="2020-12-16T14:13:36 IST" description="validates 3 tags are remarked after checked (could be with any other number of tags)" finished-at="2020-12-16T14:13:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_01_ValidatesNumberOfTagsChecked -->
+        <test-method status="PASS" signature="tc_02_SortByNameStringValidation()[pri:0, instance:steamTests.ResultsTest@578486a3]" name="tc_02_SortByNameStringValidation" duration-ms="12328" started-at="2020-12-16T14:13:40 IST" description="DropdownByNameValidation" finished-at="2020-12-16T14:13:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_02_SortByNameStringValidation -->
+        <test-method status="PASS" signature="tc_03_ValidateSortByPrice()[pri:0, instance:steamTests.ResultsTest@578486a3]" name="tc_03_ValidateSortByPrice" duration-ms="14783" started-at="2020-12-16T14:13:53 IST" description="validates the sorting Price ASC option works" finished-at="2020-12-16T14:14:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_03_ValidateSortByPrice -->
+        <test-method status="PASS" signature="tc_04_ChecksThereAre50RowsDisplaying()[pri:0, instance:steamTests.ResultsTest@578486a3]" name="tc_04_ChecksThereAre50RowsDisplaying" duration-ms="11020" started-at="2020-12-16T14:14:07 IST" description="validates there are 50 rows displaying when result page is spawn for the first time" finished-at="2020-12-16T14:14:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_04_ChecksThereAre50RowsDisplaying -->
+        <test-method status="PASS" signature="tc_05_VerifyAllGamesAreForMac()[pri:0, instance:steamTests.ResultsTest@578486a3]" name="tc_05_VerifyAllGamesAreForMac" duration-ms="11665" started-at="2020-12-16T14:14:18 IST" description="validates that all games are Mac supported, checking the number of rows displayed are equal to number of rows with Mac supported Icons" finished-at="2020-12-16T14:14:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_05_VerifyAllGamesAreForMac -->
+        <test-method status="PASS" signature="tc_06_VerifyAllGamesAreTaggedSinglePlayer()[pri:0, instance:steamTests.ResultsTest@578486a3]" name="tc_06_VerifyAllGamesAreTaggedSinglePlayer" duration-ms="62959" started-at="2020-12-16T14:14:30 IST" description="validates all games displayed on the table are tagged as &#039;SinglePlayer&#039;" finished-at="2020-12-16T14:15:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_06_VerifyAllGamesAreTaggedSinglePlayer -->
+        <test-method status="PASS" signature="tc_07_checkSizeOftaggedGenresAfterExcluding_Failed()[pri:0, instance:steamTests.ResultsTest@578486a3]" name="tc_07_checkSizeOftaggedGenresAfterExcluding_Failed" duration-ms="14815" started-at="2020-12-16T14:15:33 IST" description="A Failed test - After removing one Tag there are still 4 tags checked - allegedly a Bug Spotted" finished-at="2020-12-16T14:15:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_07_checkSizeOftaggedGenresAfterExcluding_Failed -->
+        <test-method status="PASS" signature="tc_08_checkSizeOfTaggedGenresAfterexculding_Succeed()[pri:0, instance:steamTests.ResultsTest@578486a3]" name="tc_08_checkSizeOfTaggedGenresAfterexculding_Succeed" duration-ms="58872" started-at="2020-12-16T14:15:48 IST" description="A Successfull test - using the alternate way to remove the tags works fine." finished-at="2020-12-16T14:16:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_08_checkSizeOfTaggedGenresAfterexculding_Succeed -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:steamTests.ResultsTest@578486a3]" name="tearDown" is-config="true" duration-ms="755" started-at="2020-12-16T14:16:47 IST" finished-at="2020-12-16T14:16:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- steamTests.ResultsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

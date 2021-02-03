@@ -1,0 +1,104 @@
+<html>
+<head>
+<title>TestNG:  LoginTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>LoginTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Dec 07 10:10:06 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>58 seconds (58338 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='steamTests.LoginTest.tc01_LoginFailed()'><b>tc01_LoginFailed</b><br>Test class: steamTests.LoginTest<br>Test method: validates that no error Message is shown and nothing happens when password is not entered</td>
+<td></td>
+<td>20</td>
+<td>steamTests.LoginTest@1c3a4799</td></tr>
+<tr>
+<td title='steamTests.LoginTest.tc02_LoginFailed()'><b>tc02_LoginFailed</b><br>Test class: steamTests.LoginTest<br>Test method: validates that no error Message is shown and nothing happens when Username is not entered</td>
+<td></td>
+<td>20</td>
+<td>steamTests.LoginTest@1c3a4799</td></tr>
+<tr>
+<td title='steamTests.LoginTest.tc03_LoginFailed()'><b>tc03_LoginFailed</b><br>Test class: steamTests.LoginTest<br>Test method: validates that an error Message is displayed when Username and Password are entered and invalid</td>
+<td></td>
+<td>1</td>
+<td>steamTests.LoginTest@1c3a4799</td></tr>
+<tr>
+<td title='steamTests.LoginTest.tc04_LoginFailed()'><b>tc04_LoginFailed</b><br>Test class: steamTests.LoginTest<br>Test method: validates the Error Message is written the same as expected</td>
+<td></td>
+<td>0</td>
+<td>steamTests.LoginTest@1c3a4799</td></tr>
+<tr>
+<td title='steamTests.LoginTest.tc05_IsInLoginPage()'><b>tc05_IsInLoginPage</b><br>Test class: steamTests.LoginTest<br>Test method: checks currect page</td>
+<td></td>
+<td>0</td>
+<td>steamTests.LoginTest@1c3a4799</td></tr>
+</table><p>
+</body>
+</html>
